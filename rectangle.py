@@ -63,7 +63,7 @@ class Rectangle :
         self.turtle.pendown()
         self.turtle.goto(self.length+self.start[0],self.start[1])
         self.turtle.goto(self.length+self.start[0],self.height+self.start[1])
-        self.turtle.goto(self.start[0],self.start[1])
+        self.turtle.goto(self.start[0],self.height+self.start[1])
         self.turtle.goto(self.start[0],self.start[1])
         self.turtle.penup()
         self.has_been_drawn=True
